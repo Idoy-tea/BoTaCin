@@ -1,5 +1,4 @@
-const mySecret = process.env['token'];
-const keepAlive = require("./server.js");
+const { token } = require('config.json')
 const { Client, Events, GatewayIntentBits, SlashCommandBuilder } = require('discord.js');
 const Btc = require('./coin//btc.js');
 const Eth = require('./coin//eth.js');
@@ -195,4 +194,4 @@ setInterval(() => {
 }, 1000);
 
 keepAlive();
-botacin.login(mySecret);
+botacin.login(token);
