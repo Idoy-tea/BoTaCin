@@ -27,20 +27,20 @@ const btc15 = new Btc('15m');
 const btc30 = new Btc('30m');
 const btc1h = new Btc('1h');
 const btc1d = new Btc('1d');
-const eth15 = new Eth('15m');
-const eth30 = new Eth('30m');
-const eth1h = new Eth('1h');
-const xrp15 = new Xrp('15m');
-const xrp30 = new Xrp('30m');
-const xrp1h = new Xrp('1h');
-const scrt5 = new Scrt('5m');
-const scrt15 = new Scrt('15m');
-const scrt30 = new Scrt('30m');
-const scrt1h = new Scrt('1h');
-const idex5 = new Idex('5m');
-const idex30 = new Idex('30m');
-const idex15 = new Idex('15m');
-const idex1h = new Idex('1h');
+// const eth15 = new Eth('15m');
+// const eth30 = new Eth('30m');
+// const eth1h = new Eth('1h');
+// const xrp15 = new Xrp('15m');
+// const xrp30 = new Xrp('30m');
+// const xrp1h = new Xrp('1h');
+// const scrt5 = new Scrt('5m');
+// const scrt15 = new Scrt('15m');
+// const scrt30 = new Scrt('30m');
+// const scrt1h = new Scrt('1h');
+// const idex5 = new Idex('5m');
+// const idex30 = new Idex('30m');
+// const idex15 = new Idex('15m');
+// const idex1h = new Idex('1h');
 
 const notificationStatus = {
   btc5: false,
@@ -48,20 +48,20 @@ const notificationStatus = {
   btc30: false,
   btc1h: false,
   btc1d: false,
-  eth15: false,
-  eth30: false,
-  eth1h: false,
-  xrp15: false,
-  xrp30: false,
-  xrp1h: false,
-  scrt5: false,
-  scrt30: false,
-  scrt15: false,
-  scrt1h: false,
-  idex5: false,
-  idex30: false,
-  idex15: false,
-  idex1h: false,
+  // eth15: false,
+  // eth30: false,
+  // eth1h: false,
+  // xrp15: false,
+  // xrp30: false,
+  // xrp1h: false,
+  // scrt5: false,
+  // scrt30: false,
+  // scrt15: false,
+  // scrt1h: false,
+  // idex5: false,
+  // idex30: false,
+  // idex15: false,
+  // idex1h: false,
 };
 
 function sendNotificationOnce(key, message) {
