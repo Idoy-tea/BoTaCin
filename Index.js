@@ -1,10 +1,13 @@
 const { token } = require('config.json')
 const { Client, Events, GatewayIntentBits, SlashCommandBuilder } = require('discord.js');
 const Btc = require('./coin//btc.js');
-const Eth = require('./coin//eth.js');
-const Xrp = require('./coin//xrp.js');
-const Scrt = require('./coin/scrt.js');
-const Idex = require('./coin/idex.js')
+const Doge = require('./coin//doge.js');
+const Mkr = require('./coin//maker.js');
+const Cream = require('./coin/cream.js');
+//const Eth = require('./coin//eth.js');
+//const Xrp = require('./coin//xrp.js');
+//const Scrt = require('./coin/scrt.js');
+//const Idex = require('./coin/idex.js')
 
 const botacin = new Client({
   intents: [
